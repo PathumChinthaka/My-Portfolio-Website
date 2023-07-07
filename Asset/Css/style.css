@@ -153,3 +153,13 @@ nav ul li a:hover::after{
 .sub-links.active-link::after{
     width: 50%;
 }
+
+.sub-content ul li span{
+    color: rgb(14, 156, 199);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.sub-content.active-content{
+    display: block;
+}
