@@ -114,5 +114,14 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-title{
+    font-size: 50px;
+    font-weight: 600;
 }
