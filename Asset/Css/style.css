@@ -18,11 +18,12 @@ body{
     background-image: url('/Asset/Images/headerimg.png');
     background-size: cover;
     background-position: center;
-    /* border: 2px solid red; */
 }
 
 .container{
     padding: 10px 10%;
+    height: 100vh;
+    border: 2px solid red;
 }
 
 nav{
@@ -167,6 +168,10 @@ nav ul li a:hover::after{
 
 .sub-content{
     display: none;
+}
+
+.sub-content>ul>li{
+    margin-top: 13px;
 }
 
 .sub-content.active-content{
