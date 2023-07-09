@@ -10,7 +10,7 @@
     <section id="header">
         <div class="container">
             <nav>
-                <span>PATHUM.</span>
+                <span class="logo-text">PATHUM.</span>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -41,18 +41,25 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque cum sed nisi temporibus voluptates quos porro expedita incidunt commodi possimus illo vitae natus atque accusantium cupiditate quae, necessitatibus consequatur.
                     </p>
                     <div class="sub-titles">
-                        <p class="sub-links active-link">Skill</p>
-                        <p class="sub-links">Experience</p>
-                        <p class="sub-links">Education</p>
+                        <p class="sub-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="sub-links" onclick="opentab('experience')">Experience</p>
+                        <p class="sub-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="sub-content active-content">
+                    <div class="sub-content active-content" id="skills">
                         <ul>
                             <li><span>Web Development</span><br>Creative Web Design/Development</li>
                             <li><span>UI/UX Design</span><br>Design Web/App Interfaces</li>
                             <li><span>Software Development</span><br>Build Software based Systems</li>
                         </ul>
                     </div>
-                    <div class="sub-content">
+                    <div class="sub-content" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Creative Web Design/Development</li>
+                            <li><span>UI/UX Design</span><br>Design Web/App Interfaces</li>
+                            <li><span>Software Development</span><br>Build Valuable Software Applications</li>
+                        </ul>
+                    </div>
+                    <div class="sub-content" id="education">
                         <ul>
                             <li><span>Web Development</span><br>Creative Web Design/Development</li>
                             <li><span>UI/UX Design</span><br>Design Web/App Interfaces</li>
@@ -63,5 +70,6 @@
             </div>
         </div>
     </section>
+    <script src="Asset\Js\index.js"></script>
 </body>
 </html>
