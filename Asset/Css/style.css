@@ -193,5 +193,21 @@ nav ul li a:hover::after{
 }
 
 .service-list div{
-    
+    background-color: #2B2B2B;
+    border-radius: 25px;
+    padding: 40px;
+    font-weight: 300;
 }
+.service-list div i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service-list div h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+
