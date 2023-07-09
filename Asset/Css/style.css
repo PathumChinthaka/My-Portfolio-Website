@@ -112,6 +112,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 65px;
 }
 
 .about-col-1{
@@ -189,7 +190,13 @@ nav ul li a:hover::after{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.service-title{
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .service-list div{
@@ -197,7 +204,9 @@ nav ul li a:hover::after{
     border-radius: 25px;
     padding: 40px;
     font-weight: 300;
+    transition: background 0.5s,transform 0.5s;
 }
+
 .service-list div i{
     font-size: 50px;
     margin-bottom: 20px;
@@ -207,6 +216,22 @@ nav ul li a:hover::after{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+.service-list div a{
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+    display: inline-block;
+}
+
+.service-list div:hover{
+    background-color: rgb(10, 169, 231);
+    transform: translateY(-10px);
+    color: #3b3b3b;
+    font-weight: 400;
 }
 
 
