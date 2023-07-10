@@ -187,6 +187,10 @@ nav ul li a:hover::after{
     background-color: #191919;
 }
 
+#service .container{
+    height: 95vh;
+}
+
 .service-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -238,6 +242,7 @@ nav ul li a:hover::after{
 /* --------portfolio section-------- */
 
 #portfolio{
+    background-color: #121212;
     padding: 50px 0;
 }
 
@@ -264,7 +269,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#38bffd);
+    background: linear-gradient(rgba(29, 29, 29, 0.6),#38bffd);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -277,6 +282,7 @@ nav ul li a:hover::after{
     padding: 0 40px;
     text-align: center;
     font-size: 15px;
+    transition: height 0.5s;
 }
 
 .layer h3 {
@@ -301,5 +307,11 @@ nav ul li a:hover::after{
 .project:hover img{
     transform: scale(1.1);
 }
+
+.project:hover .layer{
+    height: 100%;
+}
+
+/* --------contact me section-------- */
 
 
