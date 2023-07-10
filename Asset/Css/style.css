@@ -237,7 +237,9 @@ nav ul li a:hover::after{
 
 /* --------portfolio section-------- */
 
-
+#portfolio{
+    padding: 50px 0;
+}
 
 
 
