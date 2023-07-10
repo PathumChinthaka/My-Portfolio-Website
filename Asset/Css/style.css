@@ -23,7 +23,7 @@ body{
 .container{
     padding: 10px 10%;
     height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 nav{
@@ -103,7 +103,7 @@ nav ul li a:hover::after{
 /* --------about me section--------- */
 
 #about{
-    padding: 80px 0;
+    padding: 50px 0;
     background-color: #121212;
     color: white;
 }
@@ -183,7 +183,8 @@ nav ul li a:hover::after{
 /* -----service section------ */
 
 #service{
-    padding: 30px 0;
+    padding: 50px 0;
+    background-color: #191919;
 }
 
 .service-list{
@@ -220,7 +221,7 @@ nav ul li a:hover::after{
 
 .service-list div a{
     text-decoration: none;
-    color: rgb(202, 200, 200);
+    color: rgb(252, 249, 249);
     font-size: 18px;
     font-weight: 600;
     margin-top: 13px;
@@ -233,6 +234,10 @@ nav ul li a:hover::after{
     color: #3b3b3b;
     font-weight: 400;
 }
+
+/* --------portfolio section-------- */
+
+
 
 
 
