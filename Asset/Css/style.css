@@ -367,3 +367,23 @@ nav ul li a:hover::after{
     color: rgb(174, 175, 177);
     transform: translateY(-5px);
 }
+
+.submit-btn{
+    display: block;
+    margin: 45px auto;
+    width: fit-content;
+    border: 2px solid #1f9bd4;
+    border-radius: 6px;
+    padding: 7px 40px;
+    text-decoration: none;
+    color: #d1d0d0;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background 0.5s;
+}
+
+.submit-btn:hover{
+    background-color: #13a2e4;
+    color: #2b2828;
+}
+
