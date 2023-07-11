@@ -332,4 +332,32 @@ nav ul li a:hover::after{
 
 /* --------contact me section-------- */
 
+.contact-leftside{
+    flex-basis: 35%;
+}
 
+.contact-rightside{
+    flex-basis: 60%;
+}
+
+.contact-leftside p{
+    margin-top: 30px;
+}
+
+.contact-leftside p i{
+    color: #13a2e4;
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right:15px;
+    color: #7a7676;
+    display: inline-block;
+}
