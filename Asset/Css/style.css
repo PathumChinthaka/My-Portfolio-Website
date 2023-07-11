@@ -336,6 +336,12 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 
+.contact-title{
+    font-size: 50px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
 .contact-rightside{
     flex-basis: 60%;
 }
@@ -370,14 +376,15 @@ nav ul li a:hover::after{
 
 .submit-btn{
     display: block;
-    margin: 45px auto;
+    margin: 10px auto;
     width: fit-content;
     border: 2px solid #1f9bd4;
     border-radius: 6px;
-    padding: 7px 40px;
+    padding: 7px 70px;
     text-decoration: none;
     color: #d1d0d0;
     font-weight: 600;
+    font-size: 15px;
     background-color: transparent;
     transition: background 0.5s;
 }
@@ -387,3 +394,17 @@ nav ul li a:hover::after{
     color: #2b2828;
 }
 
+.contact-rightside form{
+    width: 100%;
+}
+
+form , input , form , textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color:#2b2b2b;
+    padding: 13px 5px;
+    margin: 15px 0;
+    border-radius: 6px;
+    color: white;
+}
