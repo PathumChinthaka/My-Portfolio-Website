@@ -444,7 +444,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:375px) {
     #header{
         background-image: url('/Asset/Images/mobile.png');
     }
@@ -460,5 +460,32 @@ nav .fa-solid{
 
     .logo-text{
         margin-left: -30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        position: fixed;
+        background-color:#2B2B2B;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
 }
