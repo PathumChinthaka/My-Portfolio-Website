@@ -440,6 +440,9 @@ footer b {
 
 /* -----------------------------------Apply Media Quaries----------------------------------- */
 
+nav .fa-solid{
+    display: none;
+}
 
 @media only screen and (max-width:600px) {
     #header{
