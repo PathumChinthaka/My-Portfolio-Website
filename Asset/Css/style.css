@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     color: white;
+    cursor: default;
 }
 
-#header{
+/* home page */
+
+#header {
     width: 100%;
     height: 100vh;
     background-image: url('/Asset/Images/headerimg.png');
@@ -20,72 +23,76 @@ body{
     background-position: center;
 }
 
-.container{
+.container {
     padding: 10px 10%;
     height: 100vh;
-    /* border: 2px solid red; */
 }
 
-nav{
+/* navbar  */
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.logo-text{
+.logo-text {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
+    color: whitesmoke;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin: 10px 20px;
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 17px;
     position: relative;
+    font-weight: 400;
 }
 
-nav ul li a::after{
+nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background-color: lightseagreen;
+    background-color: #2cace7;
     position: absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text{
+/* home content */
+
+.header-text {
     margin-top: 10%;
     font-size: 30px;
 }
 
-.header-text h1{
+.header-text h1 {
     font-size: 135px;
     font-weight: 700;
     color: rgb(35, 151, 197);
 }
 
-.header-text h2{
+.header-text h2 {
     font-size: 125px;
-    font-weight:700;
-    margin-top:-50px;
-    color:rgb(142, 140, 148);
-
+    font-weight: 700;
+    margin-top: -50px;
+    color: rgb(142, 140, 148);
 }
 
-.header-text>p:nth-of-type(1){
+.header-text>p:nth-of-type(1) {
     color: #d1d0d0;
     font-size: 22px;
     font-weight: 600;
@@ -93,8 +100,8 @@ nav ul li a:hover::after{
     margin-top: 5px;
 }
 
-.header-text>p:nth-of-type(2){
-    width:600px;
+.header-text>p:nth-of-type(2) {
+    width: 600px;
     font-size: 17px;
     margin-left: 5px;
     margin-top: -20px;
@@ -102,43 +109,43 @@ nav ul li a:hover::after{
 
 /* --------about me section--------- */
 
-#about{
+#about {
     padding: 50px 0;
     background-color: #121212;
     color: white;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 65px;
 }
 
-.about-col-1{
+.about-col-1 {
     flex-basis: 35%;
 }
 
-.about-col-1 img{
+.about-col-1 img {
     width: 100%;
     border-radius: 15px;
 }
 
-.about-col-2{
+.about-col-2 {
     flex-basis: 60%;
 }
 
-.about-title{
+.about-title {
     font-size: 50px;
     font-weight: 600;
 }
 
-.sub-titles{
+.sub-titles {
     display: flex;
     margin: 20px 0 40px;
 }
 
-.sub-links{
+.sub-links {
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -146,7 +153,7 @@ nav ul li a:hover::after{
     position: relative;
 }
 
-.sub-links::after{
+.sub-links::after {
     content: '';
     width: 0;
     height: 3px;
@@ -157,73 +164,73 @@ nav ul li a:hover::after{
     transition: 0.5s;
 }
 
-.sub-links.active-link::after{
+.sub-links.active-link::after {
     width: 50%;
 }
 
-.sub-content ul li span{
-    color: rgb(14, 156, 199);
+.sub-content ul li span {
+    color: rgb(16, 176, 224);
     font-size: 17px;
     font-weight: 600;
 }
 
-.sub-content{
+.sub-content {
     display: none;
 }
 
-.sub-content>ul>li{
+.sub-content>ul>li {
     margin-top: 13px;
 }
 
-.sub-content.active-content{
+.sub-content.active-content {
     margin-top: -10px;
     display: block;
 }
 
 /* -----service section------ */
 
-#service{
+#service {
     padding: 50px 0;
     background-color: #191919;
 }
 
-#service .container{
+#service .container {
     height: 95vh;
 }
 
-.service-list{
+.service-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 60px;
 }
 
-.service-title{
+.service-title {
     font-size: 50px;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.service-list div{
+.service-list div {
     background-color: #2B2B2B;
     border-radius: 25px;
     padding: 40px;
     font-weight: 300;
-    transition: background 0.5s,transform 0.5s;
+    transition: background 0.5s, transform 0.5s;
 }
 
-.service-list div i{
+.service-list div i {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.service-list div h2{
+.service-list div h2 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.service-list div a{
+.service-list div a {
     text-decoration: none;
     color: rgb(252, 249, 249);
     font-size: 18px;
@@ -232,7 +239,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 
-.service-list div:hover{
+.service-list div:hover {
     background-color: rgb(10, 169, 231);
     transform: translateY(-10px);
     color: #3b3b3b;
@@ -241,35 +248,35 @@ nav ul li a:hover::after{
 
 /* --------portfolio section-------- */
 
-#portfolio{
+#portfolio {
     background-color: #121212;
     padding: 50px 0;
 }
 
-.project-list{
+.project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 60px;
 }
 
-.project img{
+.project img {
     width: 100%;
     height: 420px;
     display: block;
     transition: transform 0.5s;
 }
 
-.project{
+.project {
     border-radius: 25px;
     position: relative;
     overflow: hidden;
 }
 
-.layer{
+.layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(29, 29, 29, 0.6),#38bffd);
+    background: linear-gradient(rgba(29, 29, 29, 0.6), #38bffd);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -291,7 +298,7 @@ nav ul li a:hover::after{
 
 }
 
-.layer a{
+.layer a {
     margin-top: 20px;
     color: #413f3f;
     font-size: 18px;
@@ -304,15 +311,15 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
-.project:hover img{
+.project:hover img {
     transform: scale(1.1);
 }
 
-.project:hover .layer{
+.project:hover .layer {
     height: 100%;
 }
 
-.seeMore-btn{
+.seeMore-btn {
     display: block;
     margin: 45px auto;
     width: fit-content;
@@ -325,56 +332,56 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 
-.seeMore-btn:hover{
+.seeMore-btn:hover {
     background-color: #38bffd;
     color: #2b2828;
 }
 
 /* --------contact me section-------- */
 
-.contact-leftside{
+.contact-leftside {
     flex-basis: 35%;
 }
 
-.contact-title{
+.contact-title {
     font-size: 50px;
     margin-top: 5px;
     font-weight: 600;
 }
 
-.contact-rightside{
+.contact-rightside {
     flex-basis: 60%;
 }
 
-.contact-leftside p{
+.contact-leftside p {
     margin-top: 25px;
 }
 
-.contact-leftside p i{
+.contact-leftside p i {
     color: #13a2e4;
     margin-right: 10px;
     font-size: 23px;
 }
 
-.social-icons{
+.social-icons {
     margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
-    margin-right:15px;
+    margin-right: 15px;
     color: #f5f5f5;
     display: inline-block;
     transition: transform 0.4s;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     color: rgb(174, 175, 177);
     transform: translateY(-5px);
 }
 
-.submit-btn{
+.submit-btn {
     display: block;
     margin: 10px auto;
     width: fit-content;
@@ -387,32 +394,38 @@ nav ul li a:hover::after{
     font-size: 15px;
     background-color: transparent;
     transition: background 0.5s;
+    cursor: pointer;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background-color: #13a2e4;
     color: #2b2828;
 }
 
-.contact-rightside form{
+.contact-rightside form {
     width: 100%;
 }
 
-form , input , form , textarea{
+form,
+input,
+form,
+textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background-color:#2b2b2b;
+    background-color: #2b2b2b;
     padding: 13px 5px;
     margin: 15px 0;
     border-radius: 6px;
     color: white;
 }
 
-footer{
+/* footer section */
+
+footer {
     width: 100%;
-    height: 100px;
-    background-color: #121212;
+    height: 85px;
+    background-color: #1d1d1d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,6 +433,29 @@ footer{
     font-weight: 500;
 }
 
-b{
+footer b {
     color: #13a2e4;
+}
+
+
+/* -----------------------------------Apply Media Quaries----------------------------------- */
+
+
+@media only screen and (max-width:600px) {
+    #header{
+        background-image: url('/Asset/Images/mobile.png');
+    }
+
+    .header-text h1{
+        margin-top: 100%;
+        font-size: 18px;
+    }
+
+    .header-text h2{
+        font-size: 18px;
+    }
+
+    .logo-text{
+        margin-left: -30px;
+    }
 }
