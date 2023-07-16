@@ -351,6 +351,10 @@ nav ul li a:hover::after {
 
 /* --------contact me section-------- */
 
+#contact{
+    background-color: #191919;
+}
+
 .contact-leftside {
     flex-basis: 35%;
 }
@@ -437,7 +441,7 @@ textarea {
 footer {
     width: 100%;
     height: 85px;
-    background-color: #1d1d1d;
+    background-color: #141414b6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -545,6 +549,23 @@ nav .fa-solid{
     .sub-content{
         font-size: 13px;
         padding: 0 18px;
+    }
+
+    #service{
+        height: 250vh;
+    }
+
+    #portfolio{
+        height: 250vh;
+    }
+
+    #contact .container{
+        margin-left: 35px;
+    }
+
+    footer{
+        margin-top: 30rem;
+        text-align: center;
     }
 
 }
