@@ -534,9 +534,12 @@ nav .fa-solid{
     }
 
     #about .container{
-        margin-left: -50px;
+        margin-left: -45px;
         margin-top: -50px;
-        text-align: center;
+    }
+
+    .about-col-2 h1{
+        margin-left: 20px;
     }
 
     .sub-content{
