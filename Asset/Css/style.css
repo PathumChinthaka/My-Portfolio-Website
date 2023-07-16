@@ -42,7 +42,7 @@ nav {
 }
 
 .logo-text {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
     color: whitesmoke;
 }
@@ -370,7 +370,7 @@ nav ul li a:hover::after {
 }
 
 .contact-leftside p i {
-    color: #13a2e4;
+    color: #7c7c7c;
     margin-right: 10px;
     font-size: 23px;
 }
@@ -457,21 +457,9 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width:375px) {
-    #header{
-        background-image: url('/Asset/Images/mobile.png');
-    }
 
-    .header-text h1{
-        margin-top: 100%;
-        font-size: 18px;
-    }
-
-    .header-text h2{
-        font-size: 18px;
-    }
-
-    .logo-text{
-        margin-left: -30px;
+    body{
+        overflow-x: hidden;
     }
 
     nav .fa-solid{
@@ -500,4 +488,60 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
+
+    #header{
+        background-image: url('/Asset/Images/mobile2.png');
+    }
+
+    .header-text{
+        margin-top: 130%;
+        text-align: center;
+    }
+
+    .header-text h1{
+        margin-top: -18px;
+        font-size: 53px;
+    }
+
+    .header-text h2{
+        margin-top: -29px;
+        font-size: 50px;
+    }
+
+    .logo-text{
+        margin-left: -30px;
+    }
+
+    .header-text>p:nth-of-type(2){
+        /* text-align: justify;
+        margin-left: -20px;
+        margin-top: 5px; */
+        display: none;
+    }
+
+    .sub-content ul{
+        list-style: none;
+    }
+
+    .about-col-1 {
+        display: none;
+    }
+
+    .about-col-2 p:nth-of-type(1){
+        text-align: start;
+        font-size: 13px;
+        padding: 0 25px;
+    }
+
+    #about .container{
+        margin-left: -50px;
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    .sub-content{
+        font-size: 13px;
+        padding: 0 18px;
+    }
+
 }
