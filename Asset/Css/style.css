@@ -559,12 +559,15 @@ nav .fa-solid{
         height: 250vh;
     }
 
+    #contact{
+        height: 180vh;
+    }
+
     #contact .container{
         margin-left: 35px;
     }
 
     footer{
-        margin-top: 30rem;
         text-align: center;
     }
 
