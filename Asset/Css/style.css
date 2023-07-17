@@ -42,7 +42,7 @@ nav {
 }
 
 .logo-text {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
     color: whitesmoke;
 }
@@ -459,6 +459,7 @@ footer b {
 nav .fa-solid{
     display: none;
 }
+/* Mobile Responsive */
 
 @media only screen and (max-width:375px) {
 
@@ -517,9 +518,6 @@ nav .fa-solid{
     }
 
     .header-text>p:nth-of-type(2){
-        /* text-align: justify;
-        margin-left: -20px;
-        margin-top: 5px; */
         display: none;
     }
 
@@ -571,4 +569,25 @@ nav .fa-solid{
         text-align: center;
     }
 
+}
+
+/* Tab Size Responsive */
+
+@media only screen and (max-width:900px){
+
+}
+
+
+@media only screen and (max-width:1260px){
+    .header-text h1 {
+        font-size: 125px;
+    }
+
+    .header-text h2{
+        font-size: 110px;
+    }
+
+    #portfolio{
+        height: 125vh;
+    }
 }
