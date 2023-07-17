@@ -374,7 +374,7 @@ nav ul li a:hover::after {
 }
 
 .contact-leftside p i {
-    color: #7c7c7c;
+    color: #aca9a9;
     margin-right: 10px;
     font-size: 23px;
 }
@@ -578,7 +578,25 @@ nav .fa-solid{
 }
 
 
+@media only screen and (max-width:900px){
+
+}
+
+
+@media only screen and (max-width:1140px){
+
+    .service-list div{
+        padding: 25px;
+    }
+
+    .project img{
+        height: 380px;
+    }
+
+}
+
 @media only screen and (max-width:1260px){
+
     .header-text h1 {
         font-size: 125px;
     }
