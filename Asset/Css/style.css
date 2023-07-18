@@ -579,9 +579,17 @@ nav .fa-solid{
 
 
 @media only screen and (max-width:1054px){
-    
+
     #about .container{
         margin-top: -35px;
+    }
+
+    #service{
+        height: 150vh;
+    }
+
+    .service-list{
+        justify-content: center;
     }
 
 }
