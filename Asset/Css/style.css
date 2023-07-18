@@ -112,7 +112,7 @@ nav ul li a:hover::after {
     width: 600px;
     font-size: 14.5px;
     margin-left: 5px;
-    margin-top: -33px;
+    margin-top: -32px;
     text-align:justify;
 }
 
@@ -126,7 +126,7 @@ nav ul li a:hover::after {
 .btn-group .link{
     width: 120px;
     margin-bottom: 20px;
-    margin: 17px 7px;
+    margin: 18px 7px;
     text-align: center;
 }
 
@@ -245,6 +245,7 @@ nav ul li a:hover::after {
     padding: 40px;
     font-weight: 300;
     transition: background 0.5s, transform 0.5s;
+    text-align: justify;
 }
 
 .service-list div i {
