@@ -13,7 +13,7 @@ body {
     cursor: default;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -47,7 +47,7 @@ nav {
     color: whitesmoke;
 }
 
-.logo-text::first-line{
+.logo-text::first-line {
     color: rgb(40, 223, 213);
 }
 
@@ -112,7 +112,21 @@ nav ul li a:hover::after {
     width: 600px;
     font-size: 17px;
     margin-left: 5px;
-    margin-top: -20px;
+    margin-top: -33px;
+}
+
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 60px;
+}
+
+.btn-group .link{
+    width: 120px;
+    margin-bottom: 20px;
+    margin: 20px 7px;
+    text-align: center;
 }
 
 /* --------about me section--------- */
@@ -148,7 +162,7 @@ nav ul li a:hover::after {
     font-weight: 600;
 }
 
-.main-title::first-letter{
+.main-title::first-letter {
     color: #48c0f8;
 }
 
@@ -351,7 +365,7 @@ nav ul li a:hover::after {
 
 /* --------contact me section-------- */
 
-#contact{
+#contact {
     background-color: #191919;
 }
 
@@ -461,18 +475,18 @@ footer b {
 
 @media only screen and (max-width:375px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
 
-    nav .fa-solid{
+    nav .fa-solid {
         display: block;
         font-size: 25px;
     }
 
-    nav ul{
+    nav ul {
         position: fixed;
-        background-color:#2B2B2B;
+        background-color: #2B2B2B;
         width: 200px;
         top: 0;
         right: -200px;
@@ -480,46 +494,46 @@ footer b {
         padding-top: 50px;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 25px;
     }
 
-    nav ul .fa-solid{
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
 
-    #header{
+    #header {
         background-image: url('/Asset/Images/mobile2.png');
     }
 
-    .header-text{
+    .header-text {
         margin-top: 130%;
         text-align: center;
     }
 
-    .header-text h1{
+    .header-text h1 {
         margin-top: -18px;
         font-size: 53px;
     }
 
-    .header-text h2{
+    .header-text h2 {
         margin-top: -29px;
         font-size: 50px;
     }
 
-    .logo-text{
+    .logo-text {
         margin-left: -30px;
     }
 
-    .header-text>p:nth-of-type(2){
+    .header-text>p:nth-of-type(2) {
         display: none;
     }
 
-    .sub-content ul{
+    .sub-content ul {
         list-style: none;
     }
 
@@ -527,43 +541,43 @@ footer b {
         display: none;
     }
 
-    .about-col-2 p:nth-of-type(1){
+    .about-col-2 p:nth-of-type(1) {
         text-align: start;
         font-size: 13px;
         padding: 0 25px;
     }
 
-    #about .container{
+    #about .container {
         margin-left: -45px;
         margin-top: -50px;
     }
 
-    .about-col-2 h1{
+    .about-col-2 h1 {
         margin-left: 20px;
     }
 
-    .sub-content{
+    .sub-content {
         font-size: 13px;
         padding: 0 18px;
     }
 
-    #service{
+    #service {
         height: 250vh;
     }
 
-    #portfolio{
+    #portfolio {
         height: 250vh;
     }
 
-    #contact{
+    #contact {
         height: 180vh;
     }
 
-    #contact .container{
+    #contact .container {
         margin-left: 35px;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
 
@@ -571,19 +585,19 @@ footer b {
 
 /* Tab Size Responsive */
 
-nav .fa-solid{
+nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-width:850px){
-    nav .fa-solid{
+@media only screen and (max-width:850px) {
+    nav .fa-solid {
         display: block;
         font-size: 25px;
     }
 
-    nav ul{
+    nav ul {
         position: fixed;
-        background-color:#2B2B2B;
+        background-color: #2B2B2B;
         width: 200px;
         top: 0;
         right: -200px;
@@ -591,12 +605,12 @@ nav .fa-solid{
         padding-top: 50px;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 25px;
     }
 
-    nav ul .fa-solid{
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
         left: 25px;
@@ -605,58 +619,58 @@ nav .fa-solid{
 }
 
 
-@media only screen and (max-width:1054px){
+@media only screen and (max-width:1054px) {
 
-    #about .container{
+    #about .container {
         margin-top: -35px;
     }
 
-    #service{
+    #service {
         height: 150vh;
     }
 
-    .service-list{
+    .service-list {
         justify-content: center;
     }
 
-    .project-list{
+    .project-list {
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
-    #service{
+    #service {
         height: 120vh;
     }
 
-    .service-list{
+    .service-list {
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
 }
 
 
-@media only screen and (max-width:1140px){
+@media only screen and (max-width:1140px) {
 
-    .service-list div{
+    .service-list div {
         padding: 25px;
     }
 
-    .project img{
+    .project img {
         height: 380px;
     }
 
 }
 
-@media only screen and (max-width:1260px){
+@media only screen and (max-width:1260px) {
 
     .header-text h1 {
         font-size: 125px;
     }
 
-    .header-text h2{
+    .header-text h2 {
         font-size: 110px;
     }
 
-    #portfolio{
+    #portfolio {
         height: 125vh;
     }
 }
