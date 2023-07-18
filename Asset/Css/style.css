@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 .header-text h2 {
     font-size: 125px;
     font-weight: 700;
-    margin-top: -50px;
+    margin-top: -53px;
     color: rgb(142, 140, 148);
 }
 
@@ -110,9 +110,10 @@ nav ul li a:hover::after {
 
 .header-text>p:nth-of-type(2) {
     width: 600px;
-    font-size: 17px;
+    font-size: 14.5px;
     margin-left: 5px;
     margin-top: -33px;
+    text-align:justify;
 }
 
 .btn-group{
@@ -125,7 +126,7 @@ nav ul li a:hover::after {
 .btn-group .link{
     width: 120px;
     margin-bottom: 20px;
-    margin: 20px 7px;
+    margin: 17px 7px;
     text-align: center;
 }
 
@@ -155,6 +156,7 @@ nav ul li a:hover::after {
 
 .about-col-2 {
     flex-basis: 60%;
+    text-align: justify;
 }
 
 .main-title {
