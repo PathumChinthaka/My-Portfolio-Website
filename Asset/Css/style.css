@@ -456,9 +456,7 @@ footer b {
 
 /* -----------------------------------Apply Media Quaries----------------------------------- */
 
-nav .fa-solid{
-    display: none;
-}
+
 /* Mobile Responsive */
 
 @media only screen and (max-width:375px) {
@@ -573,8 +571,37 @@ nav .fa-solid{
 
 /* Tab Size Responsive */
 
-@media only screen and (max-width:900px){
+nav .fa-solid{
+    display: none;
+}
 
+@media only screen and (max-width:850px){
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        position: fixed;
+        background-color:#2B2B2B;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
 }
 
 
@@ -590,6 +617,18 @@ nav .fa-solid{
 
     .service-list{
         justify-content: center;
+    }
+
+    .project-list{
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    #service{
+        height: 120vh;
+    }
+
+    .service-list{
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
 }
