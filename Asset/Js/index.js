@@ -1,6 +1,7 @@
 
-// add js about content view
 
+
+// add js about content view
 var subLinks=document.getElementsByClassName('sub-links');
 var subContents=document.getElementsByClassName('sub-content');
 

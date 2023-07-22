@@ -17,6 +17,22 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Pre Loader */
+
+#pre-loader{
+    width: 100%;
+    height: 100vh;
+    background-color: #353535;
+    z-index: 10;
+    text-align: center;
+}
+
+#pre-loader img{
+    position: absolute;
+    inset: 0 0 0 0;
+    margin: auto;
+}
+
 /* home page */
 
 #header {
