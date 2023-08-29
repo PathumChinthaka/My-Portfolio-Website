@@ -52,14 +52,14 @@ html {
 /* navbar  */
 
 nav {
+    position: sticky;
     top: 0;
-    position:sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 5;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 5px 10%;
+    background-color: #191919;
 }
 
 .logo-text {
@@ -315,6 +315,8 @@ nav ul li a:hover::after {
     height: 420px;
     display: block;
     transition: transform 0.5s;
+    background-size: cover;
+    background-position: center;
 }
 
 .project {
@@ -542,14 +544,14 @@ footer b {
         text-align: center;
     }
 
-    .header-text h1 {
+    .fName{
         margin-top: -18px;
-        font-size: 53px;
+        font-size: 64px;
     }
 
-    .header-text h2 {
+    .lName{
         margin-top: -29px;
-        font-size: 50px;
+        font-size: 54px;
     }
 
     .logo-text {
