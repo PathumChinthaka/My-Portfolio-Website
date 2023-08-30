@@ -60,7 +60,6 @@ nav {
     z-index: 5;
     padding: 5px 10%;
     background: linear-gradient(to right, #202122, #414345);
-    border-bottom: 1px solid #38bffd;
 }
 
 .logo-text {
@@ -80,26 +79,30 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(198, 201, 201);
     text-decoration: none;
     font-size: 17px;
     position: relative;
-    font-weight: 400;
+    font-weight: 600;
+    transition:0.3s;
+    opacity: 0.8;
 }
 
-nav ul li a::after {
+/* nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background-color: rgb(38, 196, 188);
+    background-color: rgb(191, 196, 196);
     position: absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
-}
+} */
 
-nav ul li a:hover::after {
-    width: 100%;
+nav ul li a:hover{
+    color: #11b4ff;
+    opacity: 1;
+    /* width: 100%; */
 }
 
 /* home content */
