@@ -510,6 +510,11 @@ footer b {
 
     body {
         overflow-x: hidden;
+        font-size: 50%;
+    }
+
+    .container{
+        padding: 0 8%;
     }
 
     nav .fa-solid {
@@ -541,21 +546,28 @@ footer b {
 
     #header {
         background-image: url('/Asset/Images/mobile2.png');
+        overflow-x: hidden;
     }
 
     .header-text {
-        margin-top: 130%;
+        margin-top: 145%;
         text-align: center;
     }
 
-    .fName{
-        margin-top: -18px;
-        font-size: 64px;
+    .header-text h1 {
+        font-size: 50px !important;
     }
 
-    .lName{
-        margin-top: -29px;
-        font-size: 54px;
+    .header-text h2 {
+        font-size: 52px !important;
+        margin-top: -30px !important;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 5px !important;
     }
 
     .logo-text {
