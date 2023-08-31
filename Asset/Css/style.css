@@ -63,13 +63,12 @@ nav {
 }
 
 .logo-text {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
-    color: whitesmoke;
 }
 
 .logo-text::first-line {
-    color: rgb(40, 223, 213);
+    color: rgb(24, 204, 195);
 }
 
 nav ul li {
@@ -81,28 +80,19 @@ nav ul li {
 nav ul li a {
     color: rgb(198, 201, 201);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     position: relative;
-    font-weight: 600;
-    transition:0.3s;
+    font-weight: 500;
+    transition:0.4s;
     opacity: 0.8;
+    padding: 3px;
+    border-radius: 3px;
 }
 
-/* nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background-color: rgb(191, 196, 196);
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-} */
-
 nav ul li a:hover{
-    color: #11b4ff;
+    background-color: #1aa3e2;
+    color: #292929;
     opacity: 1;
-    /* width: 100%; */
 }
 
 /* home content */
@@ -546,7 +536,7 @@ footer b {
 
     #header {
         background-image: url('/Asset/Images/mobile2.png');
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .header-text {
@@ -607,19 +597,25 @@ footer b {
     }
 
     #service {
-        height: 250vh;
+        height: 165vh !important;
     }
 
     #portfolio {
-        height: 250vh;
+        height: 230vh !important;
+    }
+
+    .project{
+        width: 95%;
     }
 
     #contact {
-        height: 180vh;
+        margin-top: -42rem;
+        height: 145vh !important;
     }
 
     #contact .container {
         margin-left: 35px;
+        margin-top: 42rem;
     }
 
     footer {
