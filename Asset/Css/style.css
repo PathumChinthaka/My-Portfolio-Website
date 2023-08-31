@@ -585,6 +585,7 @@ footer b {
     #about .container {
         margin-left: -45px;
         margin-top: -50px;
+        height: 85vh;
     }
 
     .about-col-2 h1 {
