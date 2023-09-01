@@ -21,3 +21,15 @@ function openTab(tabname){
 
     document.getElementById(tabname).classList.add('active-content');
 }
+
+// side-bar event
+
+const sideMenu=document.getElementById('side-menu');
+
+function openMenu(){
+    sideMenu.style.right="0";
+}
+
+function closeMenu(){
+    sideMenu.style.right="-200px";
+}

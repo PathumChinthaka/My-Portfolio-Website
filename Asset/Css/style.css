@@ -520,6 +520,8 @@ footer b {
         right: -200px;
         height: 100vh;
         padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
     }
 
     nav ul li {
