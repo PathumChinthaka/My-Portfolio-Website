@@ -587,10 +587,11 @@ footer b {
     #about .container {
         margin-left: -45px;
         margin-top: -50px;
-        height: 85vh;
+        height: 78vh;
     }
 
     .about-col-2 h1 {
+        margin-bottom: 10px;
         margin-left: 20px;
     }
 
@@ -613,12 +614,21 @@ footer b {
 
     #contact {
         margin-top: -42rem;
-        height: 145vh !important;
+        height: 140vh !important;
     }
 
     #contact .container {
         margin-left: 35px;
         margin-top: 42rem;
+    }
+
+    .contact-leftside{
+        margin-top: 55px;
+        flex-basis: 100%;
+    }
+
+    .main-title{
+        font-size: 40px;
     }
 
     footer {
