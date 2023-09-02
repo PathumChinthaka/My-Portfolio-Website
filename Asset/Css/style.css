@@ -11,10 +11,12 @@ body {
     background-color: black;
     color: white;
     cursor: default;
+    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 /* Pre Loader */
@@ -36,7 +38,7 @@ html {
 /* home page */
 
 #header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url('/Asset/Images/headerimg.png') !important;
     background-size: cover;
@@ -58,7 +60,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     z-index: 5;
-    padding: 5px 10%;
+    padding: 8px 10%;
     background: linear-gradient(to right, #202122, #414345);
 }
 
@@ -78,22 +80,35 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(223, 226, 226);
+    color: rgb(185, 189, 189);
     text-decoration: none;
     font-size: 16px;
     position: relative;
     font-weight: 500;
     transition:0.4s;
-    opacity: 0.8;
-    padding: 3px;
+    padding: 1px;
     border-radius: 3px;
 }
 
-nav ul li a:hover{
-    background-color: #1aa3e2;
-    color: #292929;
-    opacity: 1;
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(10, 220, 235);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
 }
+
+nav ul li a:hover{
+    color: whitesmoke;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
 
 /* home content */
 
