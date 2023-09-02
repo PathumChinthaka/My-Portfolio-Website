@@ -322,10 +322,14 @@ nav ul li a:hover::after{
 .project img {
     width: 100%;
     height: 420px;
+    opacity: 0.9;
     display: block;
+    -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(95%);
     transition: transform 0.5s;
     background-size: cover;
     background-position: center;
+
 }
 
 .project {
