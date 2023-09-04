@@ -689,6 +689,45 @@ nav .fa-solid {
         left: 25px;
         cursor: pointer;
     }
+
+    .service-list{
+        display:block;
+    }
+
+    #service {
+        height: 200vh !important;
+    }
+
+    .service-list div{
+        margin: 50px;
+    }
+
+    .about-col-1 {
+        display: none;
+    }
+
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project{
+        width: 70%;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    #portfolio{
+        height: 250vh !important;
+    }
 }
 
 
