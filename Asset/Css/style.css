@@ -574,11 +574,11 @@ footer b {
         margin-top: -30px !important;
     }
 
-    .btn-group {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 5px !important;
+    .btn-group .link {
+        width: 120px;
+        margin-bottom: 20px;
+        margin: -7px 12px;
+        text-align: center;
     }
 
     .logo-text {
@@ -661,6 +661,27 @@ footer b {
 nav .fa-solid {
     display: none;
 }
+
+
+@media only screen and (max-width:768px){
+
+    .header-text {
+        margin-top: 18%;
+    }
+
+    .contact-leftside {
+        flex-basis: 100%;
+    }
+    
+    .contact-rightside {
+        flex-basis: 100%;
+    }
+
+    .contact-container{
+        height: 150vh;
+    }
+}
+
 
 @media only screen and (max-width:850px) {
     nav .fa-solid {
