@@ -16,7 +16,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-    width: 100vw;
 }
 
 /* Pre Loader */
@@ -253,7 +252,7 @@ nav ul li a:hover::after{
 }
 
 #service .container {
-    height: 100vh;
+    height: 95vh;
 }
 
 .service-list {
