@@ -253,12 +253,12 @@ nav ul li a:hover::after{
 }
 
 #service .container {
-    height: 95vh;
+    height: 100vh;
 }
 
 .service-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
     margin-top: 60px;
 }
@@ -308,6 +308,7 @@ nav ul li a:hover::after{
 /* --------portfolio section-------- */
 
 #portfolio {
+    position: relative;
     background-color: #121212;
     padding: 50px 0;
 }
@@ -405,6 +406,7 @@ nav ul li a:hover::after{
 /* --------contact me section-------- */
 
 #contact {
+    position: relative;
     background-color: #191919;
 }
 
@@ -664,6 +666,28 @@ nav .fa-solid {
 
 
 @media only screen and (max-width:768px){
+
+    #header{
+        text-align: center;
+        background-color: #222222 !important;
+        background-image: none !important;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .header-text>p:nth-of-type(2) {
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: -16px;
+        text-align: center;
+    }
 
     .header-text {
         margin-top: 18%;
