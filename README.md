@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website hosted on GitHub! This repository showcases my skills, projects, and experiences in the world of web development.
 
-# Website-Url- https://pathumchinthaka.github.io/My-Portfolio-Website/
+Website-Url : https://pathumchinthaka.github.io/My-Portfolio-Website/
 
 ## About Me
 
@@ -31,4 +31,4 @@ If you have any questions, suggestions, or just want to connect, feel free to re
 
 Thank you for visiting my portfolio!
 
-Happy Coding 💙
+Happy Coding !😍
