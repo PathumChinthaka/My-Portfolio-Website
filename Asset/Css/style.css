@@ -492,6 +492,10 @@ textarea {
     color: white;
 }
 
+input:focus {
+    background-color: #2b2b2b;
+}
+
 /* footer section */
 
 footer {
