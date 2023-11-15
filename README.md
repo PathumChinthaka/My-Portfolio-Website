@@ -1,4 +1,4 @@
-# Pathum Chinthaka's Portfolio
+# My Portfolio
 
 Welcome to my personal portfolio website hosted on GitHub! This repository showcases my skills, projects, and experiences in the world of web development.
 
