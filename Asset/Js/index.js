@@ -5,6 +5,7 @@ function windowLoad(){
 }
 
 // add js about content view
+
 var subLinks=document.getElementsByClassName('sub-links');
 var subContents=document.getElementsByClassName('sub-content');
 
@@ -32,4 +33,22 @@ function openMenu(){
 
 function closeMenu(){
     sideMenu.style.right="-200px";
+}
+
+
+//send e mail from contact me section
+
+function sendEmail(){
+    
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "username",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
 }
