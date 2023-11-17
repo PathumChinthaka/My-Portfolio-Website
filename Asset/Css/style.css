@@ -25,7 +25,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 10;
-    background-color: #353535;
+    background-color: #1d1d1d;
 }
 
 #pre-loader img {
@@ -242,6 +242,7 @@ nav ul li a:hover::after {
 .sub-content.active-content {
     margin-top: -10px;
     display: block;
+    text-align: left;
 }
 
 /* -----service section------ */
@@ -517,9 +518,15 @@ footer b {
 /* -----------------------------------Apply Media Quaries----------------------------------- */
 
 
+nav .fa-solid {
+    display: none;
+}
+
+
+
 /* Mobile Responsive */
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:380px) {
 
     body {
         overflow-x: hidden !important;
@@ -560,8 +567,9 @@ footer b {
     }
 
     #header {
-        background-image: url('/Asset/Images/mobile2.png') !important;
+        background-image: url('../Images/mobile2.png') !important;
         overflow-y: hidden;
+        height: 103vh;
     }
 
     .header-text {
@@ -578,10 +586,14 @@ footer b {
         margin-top: -30px !important;
     }
 
+    .btn-group{
+        justify-content: center !important;
+    }
+
     .btn-group .link {
         width: 120px;
         margin-bottom: 20px;
-        margin: -7px 12px;
+        margin:0 10px;
         text-align: center;
     }
 
@@ -624,11 +636,12 @@ footer b {
     }
 
     #service {
-        height: 165vh !important;
+        height: 190vh !important;
     }
 
     #portfolio {
-        height: 230vh !important;
+        margin: 0 !important;
+        height: 250vh !important;
     }
 
     .project {
@@ -662,12 +675,77 @@ footer b {
 
 /* Tab Size Responsive */
 
-nav .fa-solid {
-    display: none;
-}
 
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:570px){
+
+    #header {
+        text-align: center !important;
+        background-color: #222222 !important;
+        background-image: none !important;
+    }
+
+    .header-text h1 {
+        font-size: 7rem;
+    }
+
+    .header-text h2 {
+        font-size: 5rem;
+    }
+    
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: #2B2B2B;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    #about{
+        padding-top: 0 !important;
+    }
+
+    .about-col-1 {
+        display: none;
+    }
+
+    .about-col-2 {
+        flex-basis: 100%;
+        text-align: justify;
+    }
+
+} */
+
+
+/* @media only screen and (max-width:768px) {
+
+    nav .fa-solid {
+        display: inline-block;
+        position: relative;
+        font-size: 25px;
+        left: 45px;
+    }
 
     #header {
         text-align: center;
@@ -706,10 +784,10 @@ nav .fa-solid {
     .contact-container {
         height: 150vh;
     }
-}
+} */
 
 
-@media only screen and (max-width:850px) {
+/* @media only screen and (max-width:850px) {
     nav .fa-solid {
         display: block;
         font-size: 25px;
@@ -742,7 +820,7 @@ nav .fa-solid {
     }
 
     #service {
-        height: 200vh !important;
+        height: 240vh !important;
     }
 
     .service-list div {
@@ -775,10 +853,10 @@ nav .fa-solid {
     #portfolio {
         height: 250vh !important;
     }
-}
+} */
 
 
-@media only screen and (max-width:1054px) {
+/* @media only screen and (max-width:1054px) {
 
     #about .container {
         margin-top: -35px;
@@ -832,4 +910,4 @@ nav .fa-solid {
     #portfolio {
         height: 125vh;
     }
-}
+} */
