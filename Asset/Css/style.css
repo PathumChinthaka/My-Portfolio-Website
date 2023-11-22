@@ -526,7 +526,7 @@ nav .fa-solid {
 
 /* Mobile Responsive */
 
-@media only screen and (min-width:380px) {
+@media only screen and (max-width:380px) {
 
     body {
         overflow-x: hidden !important;
@@ -679,7 +679,7 @@ nav .fa-solid {
         flex-basis: 100%;
     }
 
-    .contact-me-prgrphs{
+    .contact-leftside p{
         font-size: 16px;
     }
 
@@ -693,8 +693,6 @@ nav .fa-solid {
 }
 
 /* Tab Size Responsive */
-
-
 
 /* @media only screen and (max-width:570px){
 
