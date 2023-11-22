@@ -526,7 +526,7 @@ nav .fa-solid {
 
 /* Mobile Responsive */
 
-@media only screen and (max-width:380px) {
+@media only screen and (min-width:380px) {
 
     body {
         overflow-x: hidden !important;
@@ -548,7 +548,7 @@ nav .fa-solid {
         width: 200px;
         top: 0;
         right: -200px;
-        height: 100vh;
+        height: 100svh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -569,7 +569,7 @@ nav .fa-solid {
     #header {
         background-image: url('../Images/mobile2.png') !important;
         overflow-y: hidden;
-        height: 103vh;
+        height: 103svh;
     }
 
     .header-text {
@@ -616,13 +616,30 @@ nav .fa-solid {
     .about-col-2 p:nth-of-type(1) {
         text-align: start;
         font-size: 13px;
-        padding: 0 25px;
+    }
+
+    .about-paragraph{
+        margin-left: 20px;
+    }
+
+    .sub-titles{
+        margin-left: 20px;
+    }
+
+    .sub-content {
+        font-size: 13px;
+        padding: 0 18px;
+        margin-left: 2px;
+    }
+
+    .sub-links{
+        font-size: 17px;
     }
 
     #about .container {
         margin-left: -45px;
         margin-top: -50px;
-        height: 78vh;
+        height: 78svh;
     }
 
     .about-col-2 h1 {
@@ -630,18 +647,14 @@ nav .fa-solid {
         margin-left: 20px;
     }
 
-    .sub-content {
-        font-size: 13px;
-        padding: 0 18px;
-    }
-
+   
     #service {
-        height: 190vh !important;
+        height: 190svh !important;
     }
 
     #portfolio {
         margin: 0 !important;
-        height: 250vh !important;
+        height: 250svh !important;
     }
 
     .project {
@@ -650,17 +663,24 @@ nav .fa-solid {
 
     #contact {
         margin-top: -42rem;
-        height: 140vh !important;
+        height: 150svh !important;
     }
 
     #contact .container {
-        margin-left: 35px;
         margin-top: 42rem;
     }
 
     .contact-leftside {
-        margin-top: 55px;
+        margin-top: 50px;
         flex-basis: 100%;
+    }
+
+    .contact-rightside{
+        flex-basis: 100%;
+    }
+
+    .contact-me-prgrphs{
+        font-size: 16px;
     }
 
     .main-title {
@@ -670,7 +690,6 @@ nav .fa-solid {
     footer {
         text-align: center;
     }
-
 }
 
 /* Tab Size Responsive */
